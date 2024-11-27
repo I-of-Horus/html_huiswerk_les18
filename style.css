@@ -2,15 +2,15 @@
     font-family: "Galada", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
 [class*="col-"] {
     width: 100%;
+    min-height: 1em;
 }
 @media only screen and (min-width: 768px) {
     [class*="col-"] {
         float: left;
-        min-height: 20px;
     }
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -35,25 +35,14 @@ header {
     color: oldlace;
 }
 
-main {
-  /*  min-height: calc(100vh - 370px);*/
-
-}
-
 ul {
     list-style-type: none;
 }
 
 #factoids {
-    /*margin: 3em;*/
     height: auto;
     background-color: oldlace;
     padding: 20px 20px 20px 0px;
-}
-
-#spacer {
-    min-height: 1em;
-    height: auto;
 }
 
 #tourist_attractions {
