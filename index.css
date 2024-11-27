@@ -1,0 +1,53 @@
+.notable-regular {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+header, footer {
+    background: #A0A0A0;
+    color: white;
+    text-align: center;
+    height: 90px;
+    padding-top: 30px;
+}
+
+td {
+    font-family: "Notable";
+    font-size: xx-large;
+
+    float: left;
+    
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border: 5px solid white;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+span {
+    padding: 10px 30px 10px 30px;
+}
+
+/* Kleuren. Ik heb geprobeerd er een beetje een verlopend geheel van te maken, met steeds   */
+/* #33 verschil in de kleurcode. Geen idee of dat gelukt is, voor mij ziet het er goed uit  */
+/* maar ik ben super kleurenblind, dus tja                                                  */
+#A1 { background-color: #f66; } #A1t { background-color: #0ff; }
+#A2 { background-color: #f96; }
+#A3 { background-color: #fc6; } #A3t { background-color: #09f; }
+#A4 { background-color: #ff6; }
+#B1 { background-color: #c66; } #B1t { background-color: #ff9; }
+#B2 { background-color: #c96; }
+#B3 { background-color: #cc6; } #B3t { background-color: #3f9; }
+#B4 { background-color: #cf6; }
+#C1 { background-color: #c69; } #C1t { background-color: #ff3; }
+#C2 { background-color: #c99; }
+#C3 { background-color: #cc9; } #C3t { background-color: #f66; }
+#C4 { background-color: #cf9; }
+#D1 { background-color: #f69; } #D1t { background-color: #ff9; }
+#D2 { background-color: #f99; }
+#D3 { background-color: #fc9; } #D3t { background-color: #f6f; }
+#D4 { background-color: #ff9; }
